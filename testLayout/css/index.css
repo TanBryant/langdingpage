@@ -1,0 +1,395 @@
+#Content .participation {
+  font-size: 24px;
+  font-family: "HelveticaNeue", sans-serif;
+  color: rgb(52, 57, 77);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 5px;
+}
+#Content .brick {
+  width: 75px;
+  height: 2px;
+  background: rgb(253, 35, 100);
+}
+#Content .cover-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#Content .cover-content .steps {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#Content .cover-content .steps .icon-next {
+  color: rgb(176, 190, 197);
+  font-size: 34px;
+  margin-top: -40px;
+}
+#Content .cover-content .steps .steps-img .steps-letter-item .steps-letter {
+  font-size: 14px;
+  font-family: "Helvetica Neue";
+  color: rgb(84, 110, 122);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+#Content .cover-content .steps .steps-img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#Content .cover-content .notification {
+  position: absolute;
+  top: -70px;
+  right: -137px;
+  cursor: pointer;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#Content .cover-content .notification:hover {
+  opacity: 0.8;
+}
+#Content .form-register {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(59%, -60%);
+  width: 357px;
+  height: 426px;
+  z-index: 1;
+}
+#Content .form-register form {
+  padding-left: 5px;
+}
+#Content .form-register form .title-login {
+  font-size: 30px;
+  font-family: "HelveticaNeue";
+  color: rgb(253, 35, 100);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.7;
+  text-align: center;
+  margin: 0;
+}
+#Content .form-register form .length {
+  border-bottom: 1px solid rgb(207, 216, 220);
+  width: 326px;
+}
+#Content .form-register form .length.length-input {
+  margin-top: -12px;
+}
+#Content .form-register form .length .text-length {
+  bottom: -11px;
+  display: inline-block;
+  border-bottom: 1px solid rgb(255, 51, 102);
+  outline: 0;
+  z-index: 1;
+  font-family: "Tahoma";
+  color: rgb(52, 57, 77);
+}
+#Content .form-register form .length .text-length:empty {
+  border-color: transparent;
+  width: 100%;
+}
+#Content .form-register form .length .text-length:empty::before {
+  content: attr(placeholder);
+  opacity: 0.5;
+}
+#Content .form-register form .verification .verification-item {
+  width: 150px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(207, 216, 220);
+}
+#Content .form-register form .verification .verification-item::-moz-placeholder {
+  color: rgb(144, 164, 174);
+}
+#Content .form-register form .verification .verification-item:-ms-input-placeholder {
+  color: rgb(144, 164, 174);
+}
+#Content .form-register form .verification .verification-item::placeholder {
+  color: rgb(144, 164, 174);
+}
+#Content .form-register form .agree-item .agree {
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(69, 90, 100);
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+}
+#Content .form-register form .signIn-below {
+  text-align: center;
+  border-top: 1px solid rgb(207, 216, 220);
+  border-bottom: 1px solid rgb(207, 216, 220);
+  line-height: 54px;
+  width: 326px;
+}
+#Content .form-register form .signIn-below:hover {
+  opacity: 0.8;
+}
+#Content .form-register form .signIn-below .letter {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(52, 57, 77);
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+}
+#Content .cover-support {
+  background-color: rgb(224, 242, 241);
+  background-image: url("/images/index/support-frame.png");
+  height: auto;
+  padding-top: 74px;
+  padding-bottom: 88px;
+}
+#Content .cover-support .cover-support-item {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: baseline;
+  margin-top: -22px;
+}
+#Content .cover-support .cover-support-item .group .group-title {
+  font-size: 18px;
+  font-family: "Tahoma";
+  color: rgb(247, 42, 99);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+#Content .cover-support .cover-support-item .group .group-content {
+  letter-spacing: 0.3px;
+  font-size: 14px;
+  width: 270.48px;
+  text-align: center;
+  line-height: 1.7;
+  color: #859CA2;
+}
+#Content .cover-product .product-hot {
+  font-size: 24px;
+  font-family: "HelveticaNeue", sans-serif;
+  color: rgb(52, 57, 77);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 4px;
+}
+#Content .cover-product .product-slider .slick-dots {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 10%;
+  height: 0;
+}
+#Content .cover-product .product-slider .slick-dots li {
+  width: 10px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: rgb(207, 216, 220);
+}
+#Content .cover-product .product-slider .slick-dots li.slick-active {
+  background-color: rgb(255, 51, 102);
+}
+#Content .cover-product .product-slider .product-group {
+  padding: 15px 15px;
+}
+#Content .cover-product .product-slider .product-group .product {
+  position: relative;
+  border-width: 1px;
+  border-color: rgb(224, 229, 233);
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 368px;
+  height: 238px;
+}
+#Content .cover-product .product-slider .product-group .product:hover {
+  border: none;
+  border-width: 1px;
+  border-color: rgb(224, 229, 233);
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#Content .cover-product .product-slider .product-group .product .new {
+  position: absolute;
+  right: 0;
+}
+#Content .cover-product .product-slider .product-group .product .product-top img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#Content .cover-product .product-slider .product-group .product .product-top .product-item .product-title {
+  font-size: 14px;
+  color: #34394d;
+  line-height: 1.714;
+}
+#Content .cover-product .product-slider .product-group .product .product-top .product-item .product-title .font-bold {
+  text-transform: uppercase;
+}
+#Content .cover-product .product-slider .product-group .product .product-top .product-item .product-title .game-name:hover {
+  color: #ffea00;
+}
+#Content .cover-product .product-slider .product-group .product .product-top .product-item .discount {
+  color: rgb(247, 42, 99);
+  font-size: 24px;
+}
+#Content .cover-product .product-slider .product-group .product .product-top .product-item .discount span {
+  font-size: 14px;
+  color: rgb(84, 110, 122);
+}
+#Content .cover-product .product-slider .product-group .product .product-midd {
+  width: 89%;
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(84, 110, 122);
+  line-height: 1.714;
+}
+#Content .cover-product .product-slider .product-group .product .line {
+  border-top: 1px solid rgb(224, 229, 233);
+  width: 90%;
+}
+#Content .cover-product .product-slider .product-group .product .product-bot .tools {
+  font-size: 14px;
+}
+#Content .cover-product .product-slider .product-group .product .product-bot .tools a:hover {
+  opacity: 0.8;
+}
+#Content .cover-product .product-slider .product-group .product .product-bot .share {
+  border-width: 1px;
+  border-color: rgb(224, 229, 233);
+  border-style: solid;
+  background-color: rgb(236, 239, 241);
+  width: 98px;
+  height: 28px;
+  text-align: center;
+  border-radius: 15px;
+}
+#Content .cover-product .product-slider .product-group .product .product-bot .share .share-letter {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(255, 51, 102);
+  text-transform: uppercase;
+  line-height: 1.714;
+}
+#Content .cover-product .product-slider .product-group .product .product-bot .share .share-letter:hover {
+  color: rgb(236, 239, 241);
+}
+#Content .cover-product .product-slider .product-group .product .product-bot .share:hover {
+  background-color: rgb(255, 51, 102);
+  color: rgb(236, 239, 241);
+}
+#Content .cover-product .product-slider .product-group .product:last-child {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  #Content .cover-content {
+    flex-wrap: wrap;
+  }
+  #Content .cover-content .steps {
+    width: 100%;
+    justify-content: center;
+  }
+  #Content .cover-content .steps .icon-next {
+    font-size: 22px;
+  }
+  #Content .form-register {
+    margin-top: 50px;
+    position: relative;
+    transform: none;
+    top: 0;
+    left: 0;
+  }
+  #Content .form-register form .length {
+    width: 98%;
+  }
+  #Content .form-register form .input-register {
+    width: 100%;
+  }
+  #Content .form-register form .verification .verification-item {
+    width: 47%;
+  }
+  #Content .form-register form .signIn-below {
+    width: 98%;
+  }
+  #Content .cover-support {
+    padding: 30px 0;
+    margin-top: 50px;
+  }
+  #Content .cover-support .cover-support-item {
+    width: 100%;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  #Content .cover-support .cover-support-item .group {
+    width: 100%;
+  }
+  #Content .cover-support .cover-support-item .group .group-content {
+    width: 100%;
+  }
+  #Content .cover-support .cover-support-item .group .group-title {
+    font-size: 16px;
+  }
+  #Content .cover-product .product-slider .product-group {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 15px 0;
+  }
+  #Content .cover-product .product-slider .product-group .product {
+    width: 99%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #Content .cover-support .cover-support-item {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 94% !important;
+  }
+  #Content .cover-support .cover-support-item {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+@media screen and (max-width: 414px) {
+  #Content .cover-content .steps {
+    flex-wrap: wrap;
+  }
+  #Content .cover-content .steps .icon-next.icon-next-none {
+    display: none;
+  }
+  #Content .cover-content .steps .steps-img .steps-letter-item .steps-letter {
+    font-size: 13px;
+  }
+  #Content .form-register form .verification {
+    gap: 15px;
+  }
+  #Content .form-register form .verification .verification-item {
+    width: 45%;
+  }
+  #Content .form-register form .length {
+    width: 100%;
+  }
+  #Content .form-register form .signIn-below {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  #Content .form-register form .verification {
+    gap: 15px;
+  }
+  #Content .form-register form .verification .verification-item {
+    width: 43%;
+  }
+}
